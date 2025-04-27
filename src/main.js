@@ -8,7 +8,7 @@ summarizeBtn.addEventListener("click", async () => {
   if (enteredText !== "") {
     try {
       isLoading = true;
-      const API_KEY = import.meta.env.VITE_API_KEY;
+      const API_KEY = "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";
 
       const response = await fetch(
         "https://api-inference.huggingface.co/models/facebook/bart-large-cnn",
